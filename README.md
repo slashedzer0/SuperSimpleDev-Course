@@ -1,7 +1,6 @@
-
 ## Description
 
-This repository contains all of the files that I wrote while taking the HTML/CSS course from SuperSimpleDev.
+This repository contains all of the files that I wrote while taking the [HTML/CSS course](https://www.youtube.com/watch?v=G3e-cpL7ofc) from SuperSimpleDev.
 
 
 ## Progress
@@ -16,7 +15,7 @@ Here's what I learned so far...
 - [ ] The HTML Structure
 - [ ] Images and Text Boxes
 - [ ] CSS Display Property
-- [ ] The div element
+- [ ] The div Element
 - [ ] Nested Layout Technique
 - [ ] CSS Grid
 - [ ] Flexbox

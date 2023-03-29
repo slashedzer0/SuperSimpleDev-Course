@@ -1,94 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>buttons + effects</title>
-</head>
-<body>
-  <style>
-    .subscribe-button {
-      background-color: #cc0000;
-      color: #fff;
-      border: none;
-      border-radius: 2px;
-      height: 36px;
-      width: 105px;
-      cursor: pointer;
-      margin-right: 8px;
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>buttons + effects</title>
+  </head>
+  <body>
+    <style>
+      .subscribe-button {
+        background-color: #cc0000;
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        height: 36px;
+        width: 105px;
+        cursor: pointer;
+        margin-right: 8px;
 
-      transition: opacity 0.20s;
-    }
+        transition: opacity 0.2s;
+      }
 
-    .subscribe-button:hover {
-      opacity: 0.75;
-    }
+      .subscribe-button:hover {
+        opacity: 0.75;
+      }
 
-    .subscribe-button:active {
-      opacity: 0.5;
-    }
+      .subscribe-button:active {
+        opacity: 0.5;
+      }
 
-    .join-button {
-      background-color: #fff;
-      color: #065fd4;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #065fd4;
-      border-radius: 2px;
-      height: 36px;
-      width: 62px;;
-      cursor: pointer;
+      .join-button {
+        background-color: #fff;
+        color: #065fd4;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #065fd4;
+        border-radius: 2px;
+        height: 36px;
+        width: 62px;
+        cursor: pointer;
 
-      transition: background-color 0.20s,
-                  color 0.20s,
-                  opacity 0.20s;
-    }
+        transition: background-color 0.2s, color 0.2s, opacity 0.2s;
+      }
 
-    .join-button:hover {
-      background-color: #065fd4;
-      color: #fff;
-    }
+      .join-button:hover {
+        background-color: #065fd4;
+        color: #fff;
+      }
 
-    .join-button:active {
-      opacity: 0.75;
-    }
+      .join-button:active {
+        opacity: 0.75;
+      }
 
-    .tweet-button {
-      background-color: #1ea2e4;
-      color: #fff;
-      border: none;
-      border-radius: 18px;
-      height: 36px;
-      width: 70px;
-      font-weight: bold;
-      font-size: 15px;
-      cursor: pointer;
-      margin-left: 8px;
+      .tweet-button {
+        background-color: #1ea2e4;
+        color: #fff;
+        border: none;
+        border-radius: 18px;
+        height: 36px;
+        width: 70px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
 
-      transition: box-shadow 0.20s,
-                  opacity 0.20s;
-    }
+        transition: box-shadow 0.2s, opacity 0.2s;
+      }
 
-    .tweet-button:hover {
-      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
-    }
+      .tweet-button:hover {
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+      }
 
-    .tweet-button:active {
-      opacity: 0.75;
-    }
-  </style>
+      .tweet-button:active {
+        opacity: 0.75;
+      }
+    </style>
 
-  <button class="subscribe-button">SUBSCRIBE</button>
-  <button class="join-button">JOIN</button>
-  <button class="tweet-button">Tweet</button>
-</body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+  </body>
 </html>
-
-<!-- Explanation
-  0. always put transition in main class
-  1. :hover and :active are "pseudo-class"
-  2. opacity values are between 0.0 ~ 1.0
-  3. one transition can have multiple properties values
-  4. box-shadow values guide: horizontal(-/+) vertical(-/+) blur color+opacity(rgba)
--->
